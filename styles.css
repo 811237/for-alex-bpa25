@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .form-control {
+    border-radius: 0;
+}
+
+.navbar .btn-outline-success {
+    border-radius: 0;
+}
+
+form.d-flex.w-100 {
+    flex-grow: 1;
+}
+
+form.d-flex.w-100 .search-input {
+    flex-grow: 1;
+    width: 800px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form.d-flex.w-100 .search-button {
+    margin-left: -1px; /* To connect the button with the input */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+form.d-flex.w-100 input.form-control {
+    flex-grow: 1;
+}
+
+.image-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.image-grid img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.image-grid .row.h-50 {
+    height: 50%;
+}
+
+.merchandise-grid .card,
+.category-grid .card {
+    width: 180px;
+    min-width: 180px;
+    border: none;
+    border-radius: 0;
+    transition: transform 0.3s;
+}
+
+.category-grid .card {
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.merchandise-grid .card:hover,
+.category-grid .card:hover {
+    transform: scale(1.05);
+}
+
+.merchandise-grid .d-flex,
+.category-grid .d-flex {
+    overflow-x: auto;
+}
+
+.category-grid .section-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.category-grid .section-title::before,
+.category-grid .section-title::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+    padding: 2rem 0;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #007bff;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+}
